@@ -37,19 +37,19 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       label: "Email",
-      value: "ganesh.d.iit.123@gmail.com",
-      href: "mailto:ganesh.d.iit.123@gmail.com"
+      value: "your.email@example.com",
+      href: "mailto:your.email@example.com"
     },
     {
       icon: <Phone className="h-5 w-5" />,
       label: "Phone",
-      value: "(+91) 9731 72 2627",
-      href: "tel:+919731722627"
+      value: "+1 (555) 123-4567",
+      href: "tel:+15551234567"
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       label: "Location",
-      value: "Bangalore, India",
+      value: "Your City, State",
       href: null
     }
   ];
@@ -218,7 +218,7 @@ const Contact = () => {
                 Let's discuss how we can bring your ideas to life.
               </p>
               <Button variant="accent" size="lg" asChild>
-                <a href="mailto:ganesh.d.iit.123@gmail.com">
+                <a href="mailto:your.email@example.com">
                   Start a conversation
                 </a>
               </Button>

@@ -5,42 +5,41 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "CFD & Engineering",
+      title: "Frontend Development",
       skills: [
-        { name: "Ansys Fluent", level: 95 },
-        { name: "Ansys IcemCFD", level: 90 },
-        { name: "Tecplot", level: 85 },
-        { name: "CFD Simulations", level: 95 },
-        { name: "Post Processing", level: 90 },
-        { name: "Report Generation", level: 85 }
+        { name: "React", level: 90 },
+        { name: "TypeScript", level: 85 },
+        { name: "Next.js", level: 80 },
+        { name: "Tailwind CSS", level: 88 },
+        { name: "Vue.js", level: 75 },
       ]
     },
     {
-      title: "Programming & Scripting",
+      title: "Backend Development",
       skills: [
-        { name: "Python 2.7+", level: 85 },
-        { name: "Python 3", level: 85 },
-        { name: "Shell Scripting", level: 80 },
-        { name: "Application Development", level: 85 },
-        { name: "Bug Fixing & Testing", level: 90 }
+        { name: "Node.js", level: 85 },
+        { name: "Python", level: 80 },
+        { name: "Express.js", level: 82 },
+        { name: "PostgreSQL", level: 78 },
+        { name: "MongoDB", level: 75 },
       ]
     },
     {
-      title: "Systems & Tools",
+      title: "DevOps & Tools",
       skills: [
-        { name: "Linux", level: 85 },
-        { name: "File Processing Scripts", level: 90 },
-        { name: "Business Process Analysis", level: 85 },
-        { name: "Technical Support", level: 90 },
-        { name: "OpenCFD", level: 80 }
+        { name: "Docker", level: 80 },
+        { name: "AWS", level: 75 },
+        { name: "Git", level: 90 },
+        { name: "CI/CD", level: 78 },
+        { name: "Linux", level: 82 },
       ]
     }
   ];
 
   const technologies = [
-    "Ansys Fluent", "Ansys IcemCFD", "Tecplot", "Python 2.7+", "Python 3", "Shell Scripting", 
-    "Linux", "CFD Simulations", "Post Processing", "Report Generation", "OpenCFD", 
-    "Application Development", "Bug Fixing", "Testing", "Technical Support", "Business Analysis"
+    "JavaScript", "TypeScript", "React", "Next.js", "Vue.js", "Node.js", 
+    "Python", "PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", 
+    "Tailwind CSS", "GraphQL", "REST APIs", "Git", "Jest", "Cypress"
   ];
 
   return (

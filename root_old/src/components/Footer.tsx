@@ -9,11 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">
-              Ganesh D
+              Your Name
             </h3>
             <p className="text-muted-foreground mb-4">
-              CFD Application Engineer with 11+ years of experience in computational fluid dynamics, 
-              application development, and technical support at Capgemini.
+              Full-Stack Developer passionate about creating innovative digital solutions 
+              and bringing ideas to life through code.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:ganesh.d.iit.123@gmail.com"
+                href="mailto:your.email@example.com"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 <Mail className="h-5 w-5" />
@@ -76,7 +76,7 @@ const Footer = () => {
               Open to new opportunities and interesting projects. Feel free to reach out!
             </p>
             <a 
-              href="mailto:ganesh.d.iit.123@gmail.com"
+              href="mailto:your.email@example.com"
               className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors duration-300"
             >
               Get In Touch
@@ -86,7 +86,7 @@ const Footer = () => {
 
         <div className="border-t border-border pt-8 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-1">
-            © {currentYear} Ganesh D. Made with 
+            © {currentYear} Your Name. Made with 
             <Heart className="h-4 w-4 text-red-500 fill-current" /> 
             using React & TypeScript
           </p>

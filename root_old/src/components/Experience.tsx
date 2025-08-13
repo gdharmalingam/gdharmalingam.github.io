@@ -5,28 +5,36 @@ import { CalendarDays, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Professional",
-      company: "Capgemini (erstwhile Altran)",
-      location: "Bangalore, IN",
-      period: "April 2013 - Present",
-      description: "Leading CFD application development and engineering projects with focus on simulations, post processing, and report generation. Developed file processing scripts that increased revenue and minimized human error risk.",
-      technologies: ["Ansys Fluent", "Ansys IcemCFD", "Python", "Shell Scripting", "Linux", "Technical Support"]
+      title: "Senior Full-Stack Developer",
+      company: "Tech Solutions Inc.",
+      location: "Remote",
+      period: "2022 - Present",
+      description: "Lead development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and implemented best practices for code quality and performance.",
+      technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL", "Docker"]
     },
     {
-      title: "Senior Consultant",
-      company: "Capgemini (erstwhile Altran)",
-      location: "Bangalore, IN", 
-      period: "March 2012 - March 2013",
-      description: "Worked on CFD mesh generation, modifications, and data processing with focus on testing and tool development. Performed CFD data generation for testing and validation purposes.",
-      technologies: ["OpenCFD", "CFD Mesh Generation", "Data Processing", "Testing", "Technical Documentation"]
+      title: "Full-Stack Developer",
+      company: "Digital Innovations Ltd.",
+      location: "New York, NY",
+      period: "2020 - 2022",
+      description: "Developed and maintained multiple client-facing applications. Collaborated with design teams to implement responsive user interfaces and optimized backend APIs for better performance.",
+      technologies: ["Vue.js", "Express.js", "MongoDB", "Redis", "Git", "Jest"]
     },
     {
-      title: "Engineer",
-      company: "Capgemini (erstwhile Altran)",
-      location: "Bangalore, IN",
-      period: "September 2010 - March 2012", 
-      description: "Started career in engineering applications, focusing on troubleshooting, documentation, and process improvement. Identified and resolved bugs in proprietary engineering tools.",
-      technologies: ["Bug Fixing", "Process Documentation", "User Manuals", "Troubleshooting", "Quality Assurance"]
+      title: "Frontend Developer",
+      company: "Creative Web Studio",
+      location: "San Francisco, CA",
+      period: "2018 - 2020",
+      description: "Focused on creating engaging user experiences and responsive web designs. Worked closely with UX designers to implement pixel-perfect designs and improve site performance.",
+      technologies: ["JavaScript", "React", "CSS3", "Webpack", "Sass", "Figma"]
+    },
+    {
+      title: "Junior Developer",
+      company: "StartUp Ventures",
+      location: "Austin, TX",
+      period: "2017 - 2018",
+      description: "Started my professional journey building web applications and learning industry best practices. Contributed to multiple projects and gained experience in full-stack development.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL", "Bootstrap"]
     }
   ];
 

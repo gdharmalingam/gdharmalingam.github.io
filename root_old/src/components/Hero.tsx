@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import heroBackground from "@/assets/cfd-ai-coding-hero.jpg";
+import heroBackground from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -26,18 +26,17 @@ const Hero = () => {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
             <span className="block text-foreground">Hello, I'm</span>
             <span className="block bg-gradient-primary bg-clip-text text-transparent animate-float">
-              Ganesh D
+              Your Name
             </span>
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            CFD Application Engineer & Senior Professional
+            Full-Stack Developer & Technology Enthusiast
           </p>
           
           <p className="text-lg text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            CFD Application Engineer with 11+ years of experience in general purpose CFD simulations, 
-            post processing and report generation. Specialized in application development, bug fixing & testing 
-            with expertise in evaluating business needs and developing file processing scripts.
+            Passionate about creating innovative digital solutions and bringing ideas to life through code. 
+            Specialized in modern web technologies with a focus on user experience and performance.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -77,7 +76,7 @@ const Hero = () => {
               <Linkedin className="h-8 w-8" />
             </a>
             <a 
-              href="mailto:ganesh.d.iit.123@gmail.com"
+              href="mailto:your.email@example.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-300 transform hover:scale-110"
             >
               <Mail className="h-8 w-8" />

@@ -34,7 +34,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a seasoned CFD Application Engineer with over 11 years of experience in computational fluid dynamics and application development.
+            I'm a passionate developer with a love for creating digital experiences that make a difference.
           </p>
         </div>
 
@@ -44,21 +44,21 @@ const About = () => {
               My Journey
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              With over 11 years of experience in CFD simulations and application development, I've had the privilege 
-              of working on diverse engineering projects at Capgemini. My expertise spans general purpose CFD simulations, 
-              post processing, report generation, and developing file processing scripts that increase revenue and minimize 
-              risk of human error.
+              With several years of experience in software development, I've had the privilege of working 
+              on diverse projects ranging from small business websites to large-scale enterprise applications. 
+              My journey began with curiosity about how things work, which evolved into a passion for building 
+              innovative solutions.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I specialize in evaluating business needs and providing extensive support to end users on tool functionalities. 
-              My technical background includes a Master's degree in Aerospace Engineering from the Indian Institute of Science, 
-              Bangalore, which has provided me with a strong foundation in computational fluid dynamics and engineering analysis.
+              I believe in continuous learning and staying up-to-date with the latest technologies and best 
+              practices. When I'm not coding, you can find me contributing to open-source projects, mentoring 
+              other developers, or exploring new technologies.
             </p>
             <div className="flex flex-wrap gap-2">
-              <Badge variant="secondary">CFD Expert</Badge>
               <Badge variant="secondary">Problem Solver</Badge>
-              <Badge variant="secondary">Application Developer</Badge>
-              <Badge variant="secondary">Technical Support</Badge>
+              <Badge variant="secondary">Team Player</Badge>
+              <Badge variant="secondary">Tech Enthusiast</Badge>
+              <Badge variant="secondary">Continuous Learner</Badge>
             </div>
           </div>
 
