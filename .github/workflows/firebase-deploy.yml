@@ -23,6 +23,7 @@ jobs:
       - name: Deploy to Firebase
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-key.json
         run: |
-          echo "$FIREBASE_SERVICE_ACCOUNT" > ${HOME}/firebase-key.json
-          firebase deploy --only hosting --project my-profile-website-3d1d6 --token "$(cat ${HOME}/firebase-key.json)"
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$GOOGLE_APPLICATION_CREDENTIALS"
+          firebase deploy --only hosting --project my-profile-website-3d1d6 --non-interactive
